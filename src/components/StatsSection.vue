@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .stats {
-  background-color: var(--dark-light);
+  background-color: #0a192f;
   padding: 3rem 0;
 }
 
@@ -42,12 +42,20 @@ export default {
   text-align: center;
   padding: 1.5rem;
   min-width: 150px;
+  border: 1px solid #233554;
+  border-radius: 8px;
+  background: #112240;
 }
 
 .stat-item h3 {
   font-size: 2.5rem;
-  color: var(--primary);
+  color: #e6f1ff;
   margin-bottom: 0.5rem;
+}
+
+.stat-item p {
+  color: #8892b0;
+  font-size: 1rem;
 }
 
 @media (max-width: 576px) {
