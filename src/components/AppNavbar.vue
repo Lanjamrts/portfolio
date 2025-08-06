@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="container">
-      <a href="#home" class="logo">AL</a>
+      <a href="#home" class="">AL</a>
       <div class="navbar-links" :class="{ active: mobileMenuOpen }">
         <a 
           v-for="link in navLinks" 

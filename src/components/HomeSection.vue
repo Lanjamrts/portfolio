@@ -16,9 +16,9 @@
               <span>Me contacter</span>
               <i class="fas fa-arrow-right"></i>
             </a>
-            <a href="/cv-lanja.pdf" class="btn btn-secondary">
+            <a href="/cv-lanja.pdf" class="btn btn-secondary" download="CV-Adrianjatovo-Lanja.pdf">
               <i class="fas fa-download"></i>
-              <span>Voir mon CV</span>
+              <span>Télécharger mon CV</span>
             </a>
           </div>
           <div class="social-links">
@@ -50,7 +50,6 @@
     </div>
   </section>
 </template>
-
 <script>
 export default {
   name: 'HomeSection',
