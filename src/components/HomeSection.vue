@@ -58,7 +58,7 @@ export default {
     return {
       socialLinks: [
         { id: 1, url: 'https://github.com/lanjamrts', target: '_blank', icon: 'fab fa-github', title: 'GitHub', class: 'github' },
-        { id: 2, url: '#', target: '', icon: 'fab fa-linkedin', title: 'LinkedIn', class: 'linkedin' },
+        { id: 2, url: 'https://www.linkedin.com/in/lanja-mirantsoa-90273a374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', target: '_blank', icon: 'fab fa-linkedin', title: 'LinkedIn', class: 'linkedin' },
         { id: 3, url: 'mailto:lanjaandrianjatovo@gmail.com', target: '', icon: 'fas fa-envelope', title: 'Email', class: 'email' }
       ],
       typewriterText: '',

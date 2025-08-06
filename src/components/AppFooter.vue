@@ -22,8 +22,8 @@
           <div class="tech-highlights">
             <span class="tech-tag">Vue.js</span>
             <span class="tech-tag">JavaScript</span>
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">Java</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Angular</span>
           </div>
         </div>
 
@@ -125,7 +125,7 @@ export default {
         },
         { 
           icon: 'fab fa-linkedin', 
-          url: '#',
+          url: 'https://www.linkedin.com/in/lanja-mirantsoa-90273a374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
           target: '_blank',
           title: 'LinkedIn'
         },

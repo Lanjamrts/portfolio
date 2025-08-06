@@ -10,13 +10,13 @@
         <div class="about-text">
           <div class="intro-block">
             <h3 class="greeting">👋 Bonjour, je suis</h3>
-            <h2 class="name">Adrianjatovo Lanja</h2>
+            <h2 class="name">ANDRIANJATOVO Lanja Mirantsoa</h2>
             <h4 class="title">Développeur Full-Stack en formation</h4>
           </div>
           
           <div class="description">
             <p class="main-description">
-              Passionné par le développement web et les technologies modernes, je suis actuellement étudiant en 2ème année de Génie Logiciel à l'INSI Ambanidia. 
+              Passionné par le développement web et les technologies modernes, je suis actuellement étudiant en Génie Logiciel à l'INSI Ambanidia. 
               Mon objectif est de créer des applications web performantes et des expériences utilisateur exceptionnelles.
             </p>
             
@@ -47,7 +47,7 @@
               <div class="detail-content">
                 <div class="detail-row">
                   <span class="label">Nom complet :</span>
-                  <span class="value">Adrianjatovo Lanja</span>
+                  <span class="value">ANDRIANJATOVO Lanja Mirantsoa</span>
                 </div>
                 <div class="detail-row">
                   <span class="label">Email :</span>
@@ -96,18 +96,6 @@
           </div>
         </div>
         
-        <div class="about-visual">
-          <div class="experience-timeline">
-            <div class="timeline-item" v-for="exp in experience" :key="exp.title">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h6>{{ exp.title }}</h6>
-                <p>{{ exp.description }}</p>
-                <span class="timeline-date">{{ exp.date }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -134,23 +122,7 @@ export default {
         { label: 'Mois d\'expérience', value: 18 },
         { label: 'Satisfaction client', value: 95 }
       ],
-      experience: [
-        {
-          title: 'Développement Web',
-          description: 'Création d\'applications web modernes avec Vue.js et Angular',
-          date: '2023 - Présent'
-        },
-        {
-          title: 'Programmation Backend',
-          description: 'Développement d\'APIs REST avec PHP et Node.js',
-          date: '2022 - Présent'
-        },
-        {
-          title: 'Design UI/UX',
-          description: 'Conception d\'interfaces utilisateur responsive et modernes',
-          date: '2022 - Présent'
-        }
-      ]
+      experience: []
     };
   },
   mounted() {
@@ -160,7 +132,7 @@ export default {
   methods: {
     initAnimations() {
       const elements = document.querySelectorAll(
-        '.intro-block, .description, .stats-grid, .about-details, .cta-section, .experience-timeline'
+        '.intro-block, .description, .stats-grid, .about-details, .cta-section'
       );
 
       elements.forEach(el => {
@@ -254,8 +226,8 @@ export default {
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   align-items: start;
 }
 
@@ -500,72 +472,6 @@ export default {
   background: #64ffda;
   color: #0a192f;
   transform: translateY(-2px);
-}
-
-.about-visual {
-  position: relative;
-}
-
-.experience-timeline {
-  position: relative;
-  padding-left: 2rem;
-}
-
-.experience-timeline::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: #64ffda;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.timeline-dot {
-  position: absolute;
-  left: -2.5rem;
-  top: 0.5rem;
-  width: 12px;
-  height: 12px;
-  background: #64ffda;
-  border-radius: 50%;
-  border: 3px solid #112240;
-}
-
-.timeline-content {
-  background: #112240;
-  border-radius: 12px;
-  padding: 1.5rem;
-  border: 1px solid #233554;
-  transition: all 0.3s ease;
-}
-
-.timeline-content:hover {
-  transform: translateX(5px);
-  background: #233554;
-}
-
-.timeline-content h6 {
-  color: #64ffda;
-  margin: 0 0 0.5rem 0;
-  font-size: 1.1rem;
-}
-
-.timeline-content p {
-  color: #e6f1ff;
-  margin: 0 0 0.5rem 0;
-  line-height: 1.6;
-}
-
-.timeline-date {
-  color: #64ffda;
-  font-size: 0.9rem;
-  font-weight: 600;
 }
 
 @media (max-width: 992px) {

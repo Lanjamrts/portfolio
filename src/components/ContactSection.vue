@@ -10,7 +10,7 @@
         </div>
         <div class="contact-item">
           <i class="fas fa-phone"></i>
-          <span>+262 38 95 983 72</span>
+          <span>+261 38 95 983 72</span>
         </div>
         <div class="contact-item">
           <i class="fas fa-phone"></i>
@@ -18,7 +18,7 @@
         </div>
         <div class="contact-item">
           <i class="fab fa-facebook"></i>
-          <a href="https://www.facebook.com/lanja.mirantsoa.37/" target="_blank">lanja mirantsoa</a>
+          <a href="https://www.facebook.com/lanja.mirantsoa.37/" target="_blank">lanja Andrianjatovo</a>
         </div>
       </div>
     </div>
