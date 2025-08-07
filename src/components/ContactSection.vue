@@ -79,4 +79,28 @@ export default {
   color: #b3c7fa;
   text-decoration: underline;
 }
+.contact-item a,
+.contact-item span {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  display: inline-block;
+}
+@media (max-width: 480px) {
+  .contact-simple {
+    padding: 2rem 1rem;
+  }
+
+  .contact-item {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .contact-item i {
+    font-size: 1.3rem;
+  }
+}
+
 </style>
