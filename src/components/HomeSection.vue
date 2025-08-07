@@ -38,7 +38,7 @@
           <div class="profile-container">
             <img src="@/assets/images/profile.png" alt="Adrianjatovo Lanja" class="profile-img">
           </div>
-          <div class="profile-name">Adrianjatovo Lanja</div>
+          <div class="profile-name">Lanja ANDRIANJATOVO</div>
         </div>
       </div>
     </div>

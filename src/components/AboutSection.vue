@@ -10,7 +10,7 @@
         <div class="about-text">
           <div class="intro-block">
             <h3 class="greeting">👋 Bonjour, je suis</h3>
-            <h2 class="name">ANDRIANJATOVO Lanja Mirantsoa</h2>
+            <h2 class="name">Lanja ANDRIANJATOVO</h2>
             <h4 class="title">Développeur Full-Stack en formation</h4>
           </div>
           
