@@ -232,4 +232,52 @@ export default {
     min-width: 0;
   }
 }
+@media (max-width: 768px) {
+  .typewriter {
+    font-size: 2rem;
+    min-height: 2.5rem;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .typewriter {
+    font-size: 1.6rem;
+    min-height: 2rem;
+  }
+
+  .profile-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero {
+    gap: 2rem;
+  }
+}
+
 </style>
