@@ -145,7 +145,7 @@
         ],
         stats: [{
             label: 'Projets réalisés',
-            value: 15
+            value: +15
           },
           {
             label: 'Technologies maîtrisées',
@@ -155,10 +155,6 @@
             label: 'Mois d\'expérience',
             value: 18
           },
-          {
-            label: 'Satisfaction client',
-            value: 95
-          }
         ],
         experience: []
       };
