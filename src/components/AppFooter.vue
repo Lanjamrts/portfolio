@@ -66,7 +66,7 @@
 
       <div class="footer-bottom" data-aos="fade-up" data-aos-delay="400">
         <div class="copyright">
-          <p>&copy; {{ currentYear }} Adrianjatovo Lanja. Tous droits réservés.</p>
+          <p>&copy; {{ currentYear }} Adrianjatovo Lanja.</p>
         </div>
         
         <div class="footer-social">
