@@ -144,7 +144,7 @@
             demoUrl: '#',
             rating: 5,
             date: 'Janvier 2024',
-            status: 'completed',
+            status: 'in-progress',
             badgeIcon: 'fas fa-tasks',
             features: [
               'Gestion collaborative',
